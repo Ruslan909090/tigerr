@@ -602,14 +602,23 @@ p {
     display: block;
     position: absolute;
     top: 20px;
-    right: -90px;
+    right: 0px;
     width: 20px;
     height: 12px;
+<<<<<<< HEAD
     display: block;
     height: 2px;
     background: #fff;
     margin-bottom: 5px;
     transition: 1s all;
+=======
+    height-display: block;
+    height-height: 2px;
+    height-width: 100%;
+    height-background: #fff;
+    height-margin-bottom: 5px;
+    height-transition: 1s all;
+>>>>>>> f078dbec17f28a5716b892f3a133d1466939dd54
   }
   .hamburger_active span {
     margin-bottom: -2px;
@@ -638,6 +647,9 @@ p {
 }
 .row .work_blocktext {
   width: 351px;
+}
+.row .work_block {
+  width: 420px;
 }
 .row .mobile_block {
   width: 400px;
@@ -682,4 +694,8 @@ p {
 }
 .menu_active {
   left: -50%;
+}
+
+.subheader_text {
+  margin-right: 227px;
 }/*# sourceMappingURL=style.css.map */
